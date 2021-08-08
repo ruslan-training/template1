@@ -57,11 +57,13 @@ body {
     line-height: 82px;
     font-family: "MRSEAVEI";
     font-size: 119px;
-    margin: 56px 189px 0 219px
+    margin: 56px 189px 0 89px
 }
 
 .logo._footer {
-    margin: 66px 141px 0 44px
+    margin: 0;
+    opacity: 0.22;
+    margin-top: 32px;
 }
 
 .top-menu {
@@ -84,7 +86,9 @@ body {
 .slider {
     display: flex;
     align-items: center;
-    margin: -10px 52px 0px 55px;
+    justify-content: space-between;
+    width: 1177px;
+    margin: 0 auto;
 }
 
 .slider__left {
@@ -99,12 +103,12 @@ body {
     width: 339px;
     height: 329px;
     background: url(img/coffee.png) no-repeat;
-    margin: 68px 0px -42px 132px;
+    margin: 68px 0px -42px 0px;
 }
 
 .slider__text {
     display: block;
-    margin: 45px 0px 0px 68px;
+    margin: 45px 0px 0px 72px;
 }
 
 .context__title._h1 {
@@ -159,18 +163,23 @@ body {
     background: url(img/slider.png) no-repeat;
     cursor: pointer;
     border: 0;
-    margin: 0 0 0 189px;
+    /* margin: 0 0 0 189px; */
+}
+
+.slider__content {
+    display: flex;
+    justify-content: center;
 }
 
 .tabs {
     display: block;
     background-color: #fff;
-    padding: 67px 0px 22px 0px;
+    padding: 67px 0px 68px 0px;
 }
 
 .tabs__menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .item {
@@ -270,16 +279,19 @@ body {
     text-align: center;
 }
 
+.content__wrap {
+    padding-left: 54px;
+}
+
 .content__img {
     display: block;
     width: 733px;
     height: 350px;
     background: url(img/ipad.png) no-repeat;
-    margin: 55px auto 0px;
+    margin: 55px auto 58px;
 }
 
 .content__text {
-    margin: 28px auto 68px;
     width: 897px;
     height: 229px;
 }
@@ -289,7 +301,6 @@ body {
     font-family: "Segoe WPN";
     font-size: 39px;
     font-weight: 300;
-    margin-left: 189px;
 }
 
 .content__paragraph._size14 {
@@ -302,18 +313,18 @@ body {
 
 .example {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 22px 0 0 0;
 }
 
 .example__img {
     width: 486px;
     height: 338px;
-    margin-left: 87px;
+    transform: translate(-16px, 0);
 }
 
 .example__adv {
-    margin-left: 38px;
+    margin-left: 22px;
 }
 
 .example__title {
@@ -334,13 +345,13 @@ body {
     list-style-image: url(img/listdecor.png);
     color: #8a8888;
     font-family: "Universe";
+    white-space: nowrap;
 }
 
 .feedback {
     display: flex;
     align-items: center;
     display: flex;
-    justify-content: center;
     padding: 80px 0;
 }
 
@@ -349,6 +360,7 @@ body {
     height: 109px;
     background-color: #e67624;
     border-radius: 5px;
+    margin-right: 67px;
 }
 
 .formlogin__log {
@@ -407,7 +419,6 @@ input[type="password"] {
     height: 109px;
     background-color: #01d4f3;
     border-radius: 5px;
-    margin-left: 66px;
 }
 
 .subscribe__element._title {
@@ -452,16 +463,23 @@ input[type="textsubs"] {
 }
 
 .footer {
-   
-    background: url(img/footerbg.png) no-repeat center top / 100% 243px;
-    
+    background: url(img/footerbg.png) no-repeat center top / 100% 100%;
 }
 
 .footer__window {
     display: flex;
+    padding: 34px 0 54px 54px;
+    justify-content: space-between;
 }
 
-.footer__block._about {
+.bottom-menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .footer__block._about {
     margin: 34px 0 54px 175px;
 }
 
@@ -471,7 +489,7 @@ input[type="textsubs"] {
 
 .footer__block._testimoanials {
     margin: 34px 0 0 86px;
-}
+} */
 
 .footer__title {
     color: #ffffff;
@@ -489,6 +507,7 @@ input[type="textsubs"] {
     font-weight: 400;
     line-height: 22px;
 }
+
 .footer__element._h4 {
     display: block;
     width: 101px;
@@ -549,7 +568,7 @@ input[type="textsubs"] {
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
-    margin: 24px 0 0 40px;
+    margin-top: 38px;
 }
 
 .footer a {
@@ -562,7 +581,8 @@ input[type="textsubs"] {
     line-height: 22px;
     display: block;
 }
+
 .container {
-    width: 1280px;
+    width: 1024px;
     margin: 0 auto;
 }
