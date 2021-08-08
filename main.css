@@ -274,7 +274,7 @@ body {
     display: block;
     width: 733px;
     height: 350px;
-    background: url(../projectone/img/ipad.png) no-repeat;
+    background: url(img/ipad.png) no-repeat;
     margin: 55px auto 0px;
 }
 
@@ -331,7 +331,7 @@ body {
 .list {
     font-size: 16px;
     line-height: 38px;
-    list-style-image: url(../projectone/img/listdecor.png);
+    list-style-image: url(img/listdecor.png);
     color: #8a8888;
     font-family: "Universe";
 }
@@ -453,7 +453,7 @@ input[type="textsubs"] {
 
 .footer {
    
-    background: url(../projectone/img/footerbg.png) no-repeat center top / 100% 243px;
+    background: url(img/footerbg.png) no-repeat center top / 100% 243px;
     
 }
 
@@ -501,7 +501,7 @@ input[type="textsubs"] {
 }
 
 .footer__button._arrl {
-    background: url(../projectone/img/footer_leftimg.png);
+    background: url(img/footer_leftimg.png);
     opacity: 0.22;
     height: 16px;
     width: 16px;
@@ -512,7 +512,7 @@ input[type="textsubs"] {
 }
 
 .footer__button._arrr {
-    background: url(../projectone/img/footer__rightimg.png);
+    background: url(img/footer__rightimg.png);
     opacity: 0.22;
     height: 16px;
     width: 16px;
