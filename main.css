@@ -3,6 +3,7 @@
 }
 
 body {
+    height: 100%;
     margin: 0;
 }
 
@@ -106,7 +107,7 @@ body {
     margin: 45px 0px 0px 68px;
 }
 
-.context__title--h1 {
+.context__title._h1 {
     font-family: "Segoe WP";
     font-weight: 600;
     font-size: 65px;
@@ -115,7 +116,7 @@ body {
     margin: 20px 0 0 0px;
 }
 
-.context__title--h2 {
+.context__title._h2 {
     font-family: "Segoe WP";
     font-weight: 300;
     font-size: 45px;
@@ -184,7 +185,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
 }
 
-.tabs__img--responsive {
+.tabs__img._rsp {
     width: 135px;
     height: 160px;
     background: url(img/c1img.png) no-repeat;
@@ -192,7 +193,7 @@ body {
     margin: 24px 0 0 0
 }
 
-.tabs__img--responsive::after {
+.tabs__img._rsp::after {
     content: '';
     background: url(img/c1icon.png) no-repeat;
     width: 53px;
@@ -203,7 +204,7 @@ body {
     left: calc(50% - 27px);
 }
 
-.tabs__img--commerce {
+.tabs__img._cmm {
     width: 135px;
     height: 160px;
     background: url(img/c2img.png) no-repeat;
@@ -211,7 +212,7 @@ body {
     margin: 24px 0 0 0
 }
 
-.tabs__img--commerce::after {
+.tabs__img._cmm::after {
     content: '';
     background: url(img/c2icon.png) no-repeat;
     width: 64px;
@@ -222,7 +223,7 @@ body {
     left: calc(50% - 28px);
 }
 
-.tabs__img--blog {
+.tabs__img._blg {
     width: 135px;
     height: 160px;
     background: url(img/c3img.png) no-repeat;
@@ -230,7 +231,7 @@ body {
     margin: 24px 0 0 0
 }
 
-.tabs__img--blog::after {
+.tabs__img._blg::after {
     content: '';
     background: url(img/c3icon.png) no-repeat;
     width: 88px;
@@ -241,7 +242,7 @@ body {
     left: calc(50% - 43px);
 }
 
-.tabs__img--search {
+.tabs__img._srh {
     width: 135px;
     height: 160px;
     background: url(img/c4img.png) no-repeat;
@@ -249,7 +250,7 @@ body {
     margin: 24px 0 0 0;
 }
 
-.tabs__img--search::after {
+.tabs__img._srh::after {
     content: '';
     background: url(img/c4icon.png) no-repeat;
     width: 72px;
@@ -283,7 +284,7 @@ body {
     height: 229px;
 }
 
-.content__title--h2 {
+.content__title._h3 {
     color: #4f4f4f;
     font-family: "Segoe WPN";
     font-size: 39px;
@@ -323,7 +324,7 @@ body {
     margin: 27px 0px 27px 0px;
 }
 
-.list--ul {
+.list._chs {
     margin: 0;
 }
 
@@ -369,11 +370,11 @@ input[type="password"] {
     margin: 0 0px 0 14px;
 }
 
-.feedback__element--submit {
+.feedback__element._enter {
     margin-left: 10px;
 }
 
-.feedback__element--title {
+.feedback__element._title {
     color: #ffffff;
     font-family: "Segoe WP";
     font-size: 28px;
@@ -409,7 +410,7 @@ input[type="password"] {
     margin-left: 66px;
 }
 
-.subscribe__element--text {
+.subscribe__element._title {
     color: #ffffff;
     font-family: "Segoe WP";
     font-size: 28px;
@@ -423,7 +424,7 @@ input[type="password"] {
     align-items: center;
 }
 
-.subscribe__element--frame {
+.subscribe__element._frame {
     margin: 20px 49px 20px 29px;
 }
 
@@ -451,26 +452,24 @@ input[type="textsubs"] {
 }
 
 .footer {
-    display: flex;
-    margin: 35px 0 0 0;
+   
     background: url(../projectone/img/footerbg.png) no-repeat;
-    width: 1280px;
-    height: 243px;
+    
 }
 
 .footer__window {
     display: flex;
 }
 
-.footer__block--about {
+.footer__block._about {
     margin: 34px 0 0 175px;
 }
 
-.footer__block--us {
+.footer__block._us {
     margin: 34px 0 0 90px;
 }
 
-.footer__block--testimoanials {
+.footer__block._testimoanials {
     margin: 34px 0 0 86px;
 }
 
@@ -482,7 +481,7 @@ input[type="textsubs"] {
     line-height: 33px;
 }
 
-.footer__element--third {
+.footer__element._h4w {
     opacity: 0.5;
     color: #ffffff;
     font-family: "Arial MT";
@@ -490,10 +489,7 @@ input[type="textsubs"] {
     font-weight: 400;
     line-height: 22px;
 }
-
-.footer__element--first,
-.footer__element--second,
-.footer__element--third {
+.footer__element._h4 {
     display: block;
     width: 101px;
     margin-top: 17px;
@@ -504,7 +500,7 @@ input[type="textsubs"] {
     align-items: center;
 }
 
-.footer__button--left {
+.footer__button._arrl {
     background: url(../projectone/img/footer_leftimg.png);
     opacity: 0.22;
     height: 16px;
@@ -515,7 +511,7 @@ input[type="textsubs"] {
     cursor: pointer;
 }
 
-.footer__button--right {
+.footer__button._arrr {
     background: url(../projectone/img/footer__rightimg.png);
     opacity: 0.22;
     height: 16px;
@@ -526,14 +522,14 @@ input[type="textsubs"] {
     cursor: pointer;
 }
 
-.footer__element--third {
+.footer__element._h4w {
     display: block;
     width: 316px;
     height: 79px;
     margin-top: 17px;
 }
 
-.footer__testimoanials__second {
+.footer__testimoanials._h4w2 {
     width: 141px;
     height: 35px;
     display: block;
@@ -544,10 +540,6 @@ input[type="textsubs"] {
     font-weight: 400;
     line-height: 22px;
     margin-top: 11px;
-}
-
-.footer p {
-    margin: 0;
 }
 
 .footer__copyright {
@@ -570,10 +562,6 @@ input[type="textsubs"] {
     line-height: 22px;
     display: block;
 }
-
-
-/**finish**/
-
 .container {
     width: 1280px;
     margin: 0 auto;
