@@ -453,7 +453,7 @@ input[type="textsubs"] {
 
 .footer {
    
-    background: url(../projectone/img/footerbg.png) no-repeat;
+    background: url(../projectone/img/footerbg.png) no-repeat center top / 100% 243px;
     
 }
 
