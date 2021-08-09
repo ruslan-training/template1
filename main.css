@@ -446,12 +446,13 @@ input[type="textsubs"] {
 
 .footer__window {
     display: flex;
+    justify-content: space-between;
+    padding: 34px 0 54px 54px;
 }
 .bottom__menu {
     display: flex;
     justify-content: space-between;
-    width: 696px;
-    margin: 34px 0 54px 46px;
+    width: 700px;
 }
 .footer__title {
     color: #ffffff;
@@ -486,6 +487,7 @@ input[type="textsubs"] {
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    margin: -10px 0 0 67px;
 }
 .footer__button._arrr {
     background: url(img/footer__rightimg.png);
