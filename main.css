@@ -57,6 +57,10 @@ body {
     font-family: "MRSEAVEI";
     font-size: 119px;
 }
+.logo._footer {
+    margin-top: 32px;
+    opacity: 0.22;
+}
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -497,6 +501,7 @@ input[type="textsubs"] {
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    margin: -10px 0 0 8px;
 }
 .footer__element._h4w {
     display: block;
@@ -519,7 +524,8 @@ input[type="textsubs"] {
     font-family: "Arial MT";
     font-size: 13px;
     font-weight: 400;
-    line-height: 22px;   
+    line-height: 22px;  
+    margin-top: 38px; 
 }
 .footer a {
     text-decoration: none;
