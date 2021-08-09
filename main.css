@@ -50,20 +50,13 @@ body {
 .header {
     background: url('img/bg.png') no-repeat center top / 100% 2466px;
 }
-
 .logo {
     opacity: 0.68;
     color: #ffffff;
     line-height: 82px;
     font-family: "MRSEAVEI";
     font-size: 119px;
-    margin: 56px 189px 0 219px
 }
-
-.logo._footer {
-    margin: 66px 141px 0 44px
-}
-
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -401,7 +394,6 @@ input[type="password"] {
     border: 0;
     line-height: 28px;
 }
-
 .subscribe {
     width: 470px;
     height: 109px;
@@ -409,14 +401,12 @@ input[type="password"] {
     border-radius: 5px;
     margin-left: 66px;
 }
-
 .subscribe__element._title {
     color: #ffffff;
     font-family: "Segoe WP";
     font-size: 28px;
     font-weight: 300;
     line-height: 21px;
-    margin: 15px 0 0px 27px;
 }
 
 .subscribe__email {
@@ -424,9 +414,9 @@ input[type="password"] {
     align-items: center;
 }
 
-.subscribe__element._frame {
+/* .subscribe__element._frame {
     margin: 20px 49px 20px 29px;
-}
+} */
 
 input[type="textsubs"] {
     width: 265px;
@@ -450,35 +440,26 @@ input[type="textsubs"] {
     font-weight: 300;
     border: 0;
 }
-
 .footer {
-   
-    background: url(img/footerbg.png) no-repeat center top / 100% 243px;
-    
+    background: url(img/footerbg.png) no-repeat center top / 100% 100%;  
 }
 
 .footer__window {
     display: flex;
 }
-
-.footer__block._about {
-    margin: 34px 0 54px 175px;
+.bottom__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 696px;
+    margin: 34px 0 54px 46px;
 }
-
-.footer__block._us {
-    margin: 34px 0 0 90px;
-}
-
-.footer__block._testimoanials {
-    margin: 34px 0 0 86px;
-}
-
 .footer__title {
     color: #ffffff;
     font-family: "Segoe WP";
     font-size: 22px;
     font-weight: 300;
     line-height: 33px;
+    margin-bottom: 17px;
 }
 
 .footer__element._h4w {
@@ -492,46 +473,35 @@ input[type="textsubs"] {
 .footer__element._h4 {
     display: block;
     width: 101px;
-    margin-top: 17px;
 }
-
 .footer__navigation {
     display: flex;
     align-items: center;
 }
-
 .footer__button._arrl {
     background: url(img/footer_leftimg.png);
     opacity: 0.22;
     height: 16px;
-    width: 16px;
-    margin: 3px 0px 0px 67px;
+    width: 16px;  
     border-radius: 50%;
     border: none;
     cursor: pointer;
 }
-
 .footer__button._arrr {
     background: url(img/footer__rightimg.png);
     opacity: 0.22;
     height: 16px;
-    width: 16px;
-    margin: 3px 0px 0px 8px;
+    width: 16px;   
     border-radius: 50%;
     border: none;
     cursor: pointer;
 }
-
 .footer__element._h4w {
     display: block;
     width: 316px;
-    height: 79px;
-    margin-top: 17px;
+    height: 79px;   
 }
-
 .footer__testimoanials._h4w2 {
-    width: 141px;
-    height: 35px;
     display: block;
     opacity: 0.66;
     color: #ffffff;
@@ -541,17 +511,14 @@ input[type="textsubs"] {
     line-height: 22px;
     margin-top: 11px;
 }
-
 .footer__copyright {
     opacity: 0.8;
     color: #ffffff;
     font-family: "Arial MT";
     font-size: 13px;
     font-weight: 400;
-    line-height: 22px;
-    margin: 24px 0 0 40px;
+    line-height: 22px;   
 }
-
 .footer a {
     text-decoration: none;
     opacity: 0.5;
@@ -563,6 +530,6 @@ input[type="textsubs"] {
     display: block;
 }
 .container {
-    width: 1280px;
+    width: 1024px;
     margin: 0 auto;
 }
