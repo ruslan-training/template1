@@ -298,31 +298,26 @@ body {
 }
 
 .example {
-    display: flex;
-    justify-content: center;
-    margin: 22px 0 0 0;
+    display: flex;  
 }
-
 .example__img {
     width: 486px;
     height: 338px;
-    margin-left: 87px;
+    transform: translate(-16px, 0px);
 }
-
 .example__adv {
-    margin-left: 38px;
+    white-space: nowrap;
 }
-
 .example__title {
     color: #4f4f4f;
     font-family: "Segoe WP";
     font-size: 33px;
     line-height: 33px;
-    margin: 27px 0px 27px 0px;
+    margin: 27px 0px 27px 3px;
 }
-
 .list._chs {
     margin: 0;
+    padding: 0 0 0 38px;
 }
 
 .list {
@@ -336,7 +331,6 @@ body {
 .feedback {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 80px 0 35px 0;
 }
 
