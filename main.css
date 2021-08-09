@@ -44,7 +44,8 @@ body {
 
 .head {
     display: flex;
-    overflow: hidden;
+    justify-content: space-between;
+    padding-top: 55px;
 }
 
 .header {
@@ -64,7 +65,6 @@ body {
 .top-menu {
     display: flex;
     justify-content: space-between;
-    margin: 48px 0 0 -9px;
     width: 476px;
     height: 19px;
 }
@@ -81,9 +81,13 @@ body {
 .slider {
     display: flex;
     align-items: center;
-    margin: -10px 52px 0px 55px;
 }
-
+.whole {
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    margin-top: 68px;
+}
 .slider__left {
     width: 50px;
     height: 50px;
@@ -96,12 +100,11 @@ body {
     width: 339px;
     height: 329px;
     background: url(img/coffee.png) no-repeat;
-    margin: 68px 0px -42px 132px;
+    margin: 0px 0px -42px 0px;
 }
 
 .slider__text {
     display: block;
-    margin: 45px 0px 0px 68px;
 }
 
 .context__title._h1 {
@@ -156,7 +159,6 @@ body {
     background: url(img/slider.png) no-repeat;
     cursor: pointer;
     border: 0;
-    margin: 0 0 0 189px;
 }
 
 .tabs {
