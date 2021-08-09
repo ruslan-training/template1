@@ -272,13 +272,13 @@ body {
     width: 733px;
     height: 350px;
     background: url(img/ipad.png) no-repeat;
-    margin: 55px auto 0px;
 }
-
-.content__text {
-    margin: 28px auto 68px;
-    width: 897px;
-    height: 229px;
+.ipad   {
+    display: flex;
+    justify-content: center;
+}
+.center._text-content {
+    margin-left: 57px;
 }
 
 .content__title._h3 {
@@ -286,7 +286,6 @@ body {
     font-family: "Segoe WPN";
     font-size: 39px;
     font-weight: 300;
-    margin-left: 189px;
 }
 
 .content__paragraph._size14 {
