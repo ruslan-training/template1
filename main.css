@@ -50,6 +50,7 @@ body {
 
 .header {
     background: url('img/bg.png') no-repeat center top / 100% 2466px;
+    height: 488px;
 }
 .logo {
     opacity: 0.68;
@@ -103,7 +104,6 @@ body {
     width: 339px;
     height: 329px;
     background: url(img/coffee.png) no-repeat;
-    margin: 0px 0px -42px 0px;
 }
 
 .slider__text {
