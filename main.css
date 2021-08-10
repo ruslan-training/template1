@@ -81,10 +81,13 @@ body {
 .slider {
     display: flex;
     align-items: center;
+    justify-content: space-between ;
+    width: 1177px;
+    margin: 0 auto;
 }
 .whole {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 1024px;
     margin-top: 68px;
 }
@@ -105,6 +108,7 @@ body {
 
 .slider__text {
     display: block;
+    margin-left: 72px;
 }
 
 .context__title._h1 {
